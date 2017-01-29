@@ -1,0 +1,44 @@
+name: EXPBottles
+main: io.github.anileo.expbottles.EXPBottles
+version: 1.1.5
+description: Store your exp into glass bottles!
+load: POSTWORLD
+author: AnnieLeonheart
+website: http://dev.bukkit.org/projects/expbottles
+softdepend: [Vault]
+
+commands:
+    xpcheck:
+        description: See how many XP points you/a player has got
+    xpfill:
+        description: Fill up glass bottles with your EXP
+    xpinfo:
+        description: Check how many XP points you need to fill a bottle
+    expbottles:
+        description: Info about the plugin
+
+permissions:
+    expbottles.*:
+        description: Access to all EXPBottles commands
+        default: op
+        children:
+            expbottles.xpinfo: true
+            expbottles.xpcheck.self: true
+            expbottles.xpcheck.others: true
+            expbottles.xpfill: true
+            expbottles.reload: true
+    expbottles.xpinfo:
+        default: true
+        description: Allows the user to issue /xpinfo command
+    expbottles.xpcheck.self:
+        default: false
+        description: Allows the user to issue /xpcheck command
+    expbottles.xpcheck.others:
+        default: false
+        description: Allows the user to issue /xpcheck <player> command
+    expbottles.xpfill:
+        default: false
+        description: Allows the user to issue /xpfill command
+    expbottles.reload:
+        default: false
+        description: Allows the user to issue /expbottles reload command
