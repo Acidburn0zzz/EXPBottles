@@ -41,7 +41,7 @@ public class API {
 	/**
 	 * The current version of the plugin in an extensive form
 	 */
-	public static final String version = "1.1.5 (2017.01.20) for Bukkit 1.2.4-1.11.2";
+	public static final String version = "1.1.6 (2017.06.25) for Bukkit 1.2.4-1.12";
 	
 	/**
 	 * The author's name
@@ -51,7 +51,7 @@ public class API {
 	/**
 	 * The plugin's main website
 	 */
-	public static final String url = "http://dev.bukkit.org/bukkit-plugins/expbottles";
+	public static final String url = "https://dev.bukkit.org/bukkit-plugins/expbottles";
 
 	/**
 	 * EXPBottles plugin

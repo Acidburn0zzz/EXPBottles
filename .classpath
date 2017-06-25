@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<!-- Replace below with your paths -->
+	<classpathentry kind="lib" path="D:/workspace/craftbukkit-1.12.jar"/> 
+	<classpathentry kind="lib" path="D:/workspace/Vault.jar"/>
+	<!-- Replace above with your paths -->
+	<classpathentry kind="output" path="bin"/>
+</classpath>

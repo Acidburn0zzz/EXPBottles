@@ -1,10 +1,10 @@
 name: EXPBottles
 main: io.github.anileo.expbottles.EXPBottles
-version: 1.1.5
+version: 1.1.6
 description: Store your exp into glass bottles!
 load: POSTWORLD
 author: AnnieLeonheart
-website: http://dev.bukkit.org/projects/expbottles
+website: https://dev.bukkit.org/projects/expbottles
 softdepend: [Vault]
 
 commands:
